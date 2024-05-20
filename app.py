@@ -28,6 +28,8 @@ import matplotlib.pyplot as plt
 with open('prophet.pkl', 'rb') as f:
     modelo = pickle.load(f)
 
+st.write("FIAP - Pós Tech Data Analytics - Tech Challenge 4 - Alunos: Francisco Coelho e Beatriz da Costa Inacio")
+
 st.write("# Previsão do preço do petróleo Brent")
 
 dashboard_url = "https://public.tableau.com/app/profile/beatriz.da.costa.inacio/viz/DashboarddoPreodoBarrildePetrleoBrent/Dashboard1"
